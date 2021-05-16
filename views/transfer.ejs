@@ -1,0 +1,83 @@
+ <%- include("partials/header"); -%>
+
+
+
+
+
+ <div class = "all-customers" id="about">
+
+
+ <div class="slide-right">
+   <h1 class="all" style="font-size:2rem; color:black;font-weight:bold;font-family:fantasy">
+     Transfer &nbsp<span style="font-size:2.5rem;color:#F2564C;font-family:fantasy">      Money</span>
+   </h1>
+ </div>
+
+ <form class="" action="/transferMoney" method="post">
+
+
+
+ <div class="all-customers-info">
+   <label class="transfer">Transfer Money from: &nbsp  &nbsp  &nbsp  &nbsp</label>
+
+   <select name="fromAccountNumber" id="enterName" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" name="username">
+   <option>Select One</option>
+   <option>Ashi Singh</option>
+   <option>Priyanka Singh</option>
+   <option>Shikha Mutreja</option>
+   <option>Siddharth Melwani</option>
+   <option>Gia Gupta</option>
+   <option>Divya Sood</option>
+   <option>Himanshu Katyal</option>
+   <option>Naman Gupta</option>
+   <option>Bhawna Khandelwal</option>
+   <option>Siya Jain</option>
+   <option>Anjali Arora</option>
+
+
+
+    <%/* customersList.forEach(function(accounts,i){ %>
+   <option value="<%=i+1%>"><%=accounts.name%></option>
+ <% }); */ %>
+
+ </select>
+ <br />
+ <label class="transfer">Transfer Money to: &nbsp  &nbsp  &nbsp  &nbsp &nbsp &nbsp </label>
+
+ <select name="toAccountNumber" id="enterSName" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+   <option>Select One</option>
+   <option>Ashi Singh</option>
+   <option>Priyanka Singh</option>
+   <option>Shikha Mutreja</option>
+   <option>Siddharth Melwani</option>
+   <option>Gia Gupta</option>
+   <option>Divya Sood</option>
+   <option>Himanshu Katyal</option>
+   <option>Naman Gupta</option>
+   <option>Bhawna Khandelwal</option>
+   <option>Siya Jain</option>
+   <option>Anjali Arora</option>
+
+ <% /* customersList.forEach(function(customer,i){ %>
+ <option value="<%=i+1%>"><%=customer.name%></option>
+ <% });*/ %>
+
+
+ </select>
+ <br />
+
+   <div class="block">
+     <label for="amountNumber" class="input-label">Amount to transfer: </label>
+
+     <input name = "amount" class="amount-input" id="enterAmount" type="text" />
+ </div>
+
+   <button name="button"onclick="sendMoney()" class="transfer-button wave-effect waves-light btn z-depth-0" type="submit" style="border-radius: 8px; background-color:#F2564C;text-transform: capitalize; " cellspacing="0">Transfer</button>
+ <!-- <button class="transferbtn" type="submit" name="button">Transfer</button> -->
+ </form>
+
+ <div>
+ <h1 class="invisible">aaaaaaaaaaa</h1>
+   </div>
+ </div>
+ </body>

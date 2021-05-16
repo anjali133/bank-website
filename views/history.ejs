@@ -1,0 +1,28 @@
+<%- include("partials/header"); -%>
+<script src = "index.js" charset = "utf-8"></script>        <!-- This is the external javascript. -->
+
+<div class = "all-customers" id="about">
+
+  <div class="slide-right">
+    <h1 class="all" style="font-size:2rem; color:black;font-weight:bold;font-family:fantasy">
+      Transaction &nbsp<span style="font-size:2.5rem;color:#F2564C;font-family:fantasy">  History</span>
+    </h1>
+  </div>
+
+
+
+    <section id="customers" class="all-customers-info">
+
+      <div class="centre">
+        <% for(let i=0; i<transaction.length; i++) { %>
+          <p>Amount of Rs. <%=transaction[i].statement%> has been <span style="color:orange"><%= transaction[i].state%></span> your account.</p>
+      <%  } %>
+      </div>
+
+      <div>
+
+    </section>
+
+    <div>
+    <h1 class="invisible">aaaaaaaaaaa</h1>
+      </div>
