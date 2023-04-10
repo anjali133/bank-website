@@ -1,3 +1,9 @@
+## Online Bank Website
+
+[![npm](https://img.shields.io/npm/v/npm?logo=NPM)](https://www.npmjs.com/package/package-list)
+
+![npm version](https://badge.fury.io/js/nodejs-weather-app.svg)
+
 This is an Online Banking Concept created using NodeJS. 
  
  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
