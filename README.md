@@ -1,5 +1,12 @@
+This is an Online Banking Concept created using NodeJS. 
+ 
+ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+ Features:
  
  
+ 
+ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  
  To setup the project on your local machine:
  
@@ -9,5 +16,6 @@
 4. Install all the dependencie mentioned in package.json file of the project by using npm (npm i dependencie_name).
 5. And run the local server on port 3000.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 If you liked the project, Please do ⭐ star the repository .
