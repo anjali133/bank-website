@@ -10,7 +10,10 @@ This is an Online Banking Concept created using NodeJS.
  
  Features:
  
- 
+ 1. Transfer Money.
+ 2. See balance after every transaction in the Transaction Report.
+ 3. Deposit & Withdraw Money
+ 4. Transaction report of credited and debited amount..
  
  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  
